@@ -1,8 +1,6 @@
-o,p=input().split()
-o=int()
-p=int()
-l2=list(map(int,input().strip().split()))[:o]
-for i in range(0,o):
+m,p=map(int,input().split())
+l2=list(map(int,input().strip().split()))[:m]
+for i in range(0,m):
   if(l2[i]==p):
     print("yes")
     break
