@@ -5,7 +5,7 @@ for i in range(0,len(h)):
     d=d+1
     break
 for i in range(0,len(h)):
-  if h[].isdigit():
+  if h[i].isdigit():
     d=d+1
     break
 if(d==2):
