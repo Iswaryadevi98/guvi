@@ -1,4 +1,3 @@
-n=int(input())
-ls=list(map(int,input().strip().split()))[:n]
+ls=list(map(int,input().strip().split()))[:10]
 ans=min(ls)
 print(ans)
