@@ -5,5 +5,5 @@ for i in range(0,l):
   if g[i] in s:
     print("yes")
     break
-  else:
+else:
     print("no")
