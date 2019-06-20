@@ -1,2 +1,4 @@
-p=input()
-print(ord(p))
+w=input()
+x=ord(w)
+print(x)
+
