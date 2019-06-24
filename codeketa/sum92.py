@@ -1,0 +1,7 @@
+a=int(input())
+x,y,z,k=input().split()
+x=int(x)
+y=int(y)
+z=int(z)
+k=int(k)
+print(x+y+z+k)
