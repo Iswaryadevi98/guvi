@@ -1,0 +1,5 @@
+d,f=input().split()
+d=int(d)
+f=int(f)
+ans=pow(d,f)
+print(ans)
