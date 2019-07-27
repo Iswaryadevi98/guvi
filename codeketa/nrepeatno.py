@@ -10,6 +10,9 @@ def R(x):
 n=int(input())
 l1 = list(map(int,input().split()))[:n]
 l2=R(l1)
-l2.sort()
-for i in l2:
-  print(i,end='')
+if(l2==[]):
+  print("unique")
+else:
+ l2.sort()
+ for i in l2:
+   print(i,end='')
